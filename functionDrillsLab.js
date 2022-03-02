@@ -59,11 +59,12 @@
 */
 
 //CODE HERE
-function greeting(name) {
-  console.log(`Hello, ${name}`);
-}
+// function greeting(name) {
+//   name = String(name);
+//   console.log(`Hello, ${name}`);
+// }
 
-greeting('Adam Dang');
+// greeting('Adam Dang');
 
 
 ////////////////// PROBLEM 5 ////////////////////
@@ -78,6 +79,17 @@ greeting('Adam Dang');
 */
 
 //CODE HERE
+// const compareNums = (num1, num2) => {
+//   if(num1 > num2){
+//     console.log(num1);
+//   } else if(num2 > num1){
+//     console.log(num2);
+//   } else {
+//     console.log('Both numbers are the same');
+//   }
+// }
+
+// compareNums(15, 15);
 
 
 ////////////////// PROBLEM 6 ////////////////////
@@ -89,6 +101,15 @@ greeting('Adam Dang');
 */
 
 //CODE HERE
+// function add(num1, num2) {
+//   num1 = parseInt(num1);
+//   num2 = parseInt(num2);
+//   return num1 + num2
+// }
+
+// let sum = add('11in', '9ft');
+
+// console.log(sum);
 
 
 ////////////////// PROBLEM 7 ////////////////////
@@ -104,7 +125,7 @@ const exclaim = function(str) {
 
 // arrow
 // declaration
-// expression
+// expression (This is the one but leaving commented out to finish the lab)
 
 
 
@@ -119,7 +140,9 @@ const exclaimTwo = str => {
   return str.toUpperCase() + '!!!'
 }
 
-// arrow
+// console.log(exclaimTwo('this is confusing'));
+
+// arrow (This is the one but leaving commented out to finish the lab)
 // declaration
 // expression
 
@@ -129,6 +152,9 @@ const exclaimTwo = str => {
 
   Brownie points if you use a template string
 */
+const exclaimThree = str => `${str.toUpperCase()}!!!`
+
+console.log(exclaimThree('this is confusing'));
 
 
 
