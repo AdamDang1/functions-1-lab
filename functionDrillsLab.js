@@ -12,6 +12,11 @@
 */
 
 //CODE HERE
+// function helloWorld() {
+//   console.log('Hello, World!');
+// }
+
+// helloWorld();
 
 
 ////////////////// PROBLEM 2 ////////////////////
@@ -21,7 +26,11 @@
 */
 
 //CODE HERE
+// const jsNinja = () => {
+//   return 'I am a Javascript ninja!'
+// } 
 
+// console.log(jsNinja());
 
 ////////////////// PROBLEM 3 ////////////////////
 /*
@@ -31,6 +40,11 @@
 */
 
 //CODE HERE
+// function printName (name) {
+//   console.log(name);
+// }
+
+// printName('Adam Theodore Dang');
 
 
 ////////////////// PROBLEM 4 ////////////////////
@@ -45,6 +59,11 @@
 */
 
 //CODE HERE
+function greeting(name) {
+  console.log(`Hello, ${name}`);
+}
+
+greeting('Adam Dang');
 
 
 ////////////////// PROBLEM 5 ////////////////////
