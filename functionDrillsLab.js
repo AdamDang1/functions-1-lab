@@ -154,7 +154,7 @@ const exclaimTwo = str => {
 */
 const exclaimThree = str => `${str.toUpperCase()}!!!`
 
-console.log(exclaimThree('this is confusing'));
+// console.log(exclaimThree('this is confusing'));
 
 
 
@@ -170,7 +170,7 @@ function exclaimFour(str) {
 }
 
 // arrow
-// declaration
+// declaration (This is the one but leaving commented out to finish the lab)
 // expression
 
 
@@ -184,6 +184,18 @@ function exclaimFour(str) {
 */
 
 //CODE HERE
+// function nameCheck(name) {
+//   if(name === 'Steven'){
+//     return 'What is up Steven?'
+//   } else if (name === 'Bryan'){
+//     return 'Hey Bryan!'
+//   } else {
+//     return `Cool name, ${name}`
+//   }
+// }
+
+// let nameGreeting = nameCheck('Adam');
+// console.log(nameGreeting);
 
 
 ////////////////// PROBLEM 11 ////////////////////
@@ -197,6 +209,20 @@ function exclaimFour(str) {
 */
 
 //CODE HERE
+// function faveColorFinder(colorStr) {
+//   if(colorStr === "red"){
+//     return 'red is a great color';
+//   } else if (colorStr === "green"){
+//     return 'green is a solid favorite color';
+//   } else if (colorStr === "black"){
+//     return 'so trendy';
+//   } else {
+//     return 'you need to evaluate your favorite color choice'
+//   }
+// }
+
+// let colorRating = faveColorFinder('blue');
+// console.log(colorRating);
 
 
 ////////////////// PROBLEM 12 ////////////////////
@@ -208,6 +234,12 @@ let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
 */
 
 //CODE HERE
+// function printAllNames(names) {
+//   for(let i = 0; i < namesArr.length; i++){
+//     console.log(namesArr[i]);
+//   }
+// }
+// printAllNames(namesArr);
 
 
 ////////////////// PROBLEM 13 ////////////////////
@@ -219,6 +251,18 @@ let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
 */
 
 //CODE HERE
+// const thatsOdd = num => {
+//   if(num % 2 === 0){
+//     return "That's not odd!"
+//   } else {
+//     return "That is odd indeed!"
+//   }
+// }
+
+// console.log(thatsOdd(10));
+
+// let oddChecker = thatsOdd(13);
+// console.log(oddChecker);
 
 
 ////////////////// PROBLEM 14 ////////////////////
