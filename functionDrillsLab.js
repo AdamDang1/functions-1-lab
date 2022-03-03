@@ -12,11 +12,11 @@
 */
 
 //CODE HERE
-// function helloWorld() {
-//   console.log('Hello, World!');
-// }
+function helloWorld() {
+  console.log('Hello, World!');
+}
 
-// helloWorld();
+helloWorld();
 
 
 ////////////////// PROBLEM 2 ////////////////////
@@ -26,11 +26,11 @@
 */
 
 //CODE HERE
-// const jsNinja = () => {
-//   return 'I am a Javascript ninja!'
-// } 
+const jsNinja = () => {
+  return 'I am a Javascript ninja!'
+} 
 
-// console.log(jsNinja());
+console.log(jsNinja());
 
 ////////////////// PROBLEM 3 ////////////////////
 /*
@@ -40,11 +40,11 @@
 */
 
 //CODE HERE
-// function printName (name) {
-//   console.log(name);
-// }
+function printName (name) {
+  console.log(name);
+}
 
-// printName('Adam Theodore Dang');
+printName('Adam Theodore Dang');
 
 
 ////////////////// PROBLEM 4 ////////////////////
@@ -59,12 +59,12 @@
 */
 
 //CODE HERE
-// function greeting(name) {
-//   name = String(name);
-//   console.log(`Hello, ${name}`);
-// }
+function greeting(name) {
+  name = String(name);
+  console.log(`Hello, ${name}`);
+}
 
-// greeting('Adam Dang');
+greeting('Adam Dang');
 
 
 ////////////////// PROBLEM 5 ////////////////////
@@ -79,17 +79,17 @@
 */
 
 //CODE HERE
-// const compareNums = (num1, num2) => {
-//   if(num1 > num2){
-//     console.log(num1);
-//   } else if(num2 > num1){
-//     console.log(num2);
-//   } else {
-//     console.log('Both numbers are the same');
-//   }
-// }
+const compareNums = (num1, num2) => {
+  if(num1 > num2){
+    console.log(num1);
+  } else if(num2 > num1){
+    console.log(num2);
+  } else {
+    console.log('Both numbers are the same');
+  }
+}
 
-// compareNums(15, 15);
+compareNums(15, 15);
 
 
 ////////////////// PROBLEM 6 ////////////////////
@@ -101,15 +101,15 @@
 */
 
 //CODE HERE
-// function add(num1, num2) {
-//   num1 = parseInt(num1);
-//   num2 = parseInt(num2);
-//   return num1 + num2
-// }
+function add(num1, num2) {
+  num1 = parseInt(num1);
+  num2 = parseInt(num2);
+  return num1 + num2
+}
 
-// let sum = add('11in', '9ft');
+let sum = add('11in', '9ft');
 
-// console.log(sum);
+console.log(sum);
 
 
 ////////////////// PROBLEM 7 ////////////////////
@@ -125,7 +125,7 @@ const exclaim = function(str) {
 
 // arrow
 // declaration
-// expression (This is the one but leaving commented out to finish the lab)
+expression (This is the one but leaving commented out to finish the lab)
 
 
 
@@ -140,9 +140,9 @@ const exclaimTwo = str => {
   return str.toUpperCase() + '!!!'
 }
 
-// console.log(exclaimTwo('this is confusing'));
+console.log(exclaimTwo('this is confusing'));
 
-// arrow (This is the one but leaving commented out to finish the lab)
+arrow (This is the one but leaving commented out to finish the lab)
 // declaration
 // expression
 
@@ -154,7 +154,7 @@ const exclaimTwo = str => {
 */
 const exclaimThree = str => `${str.toUpperCase()}!!!`
 
-// console.log(exclaimThree('this is confusing'));
+console.log(exclaimThree('this is confusing'));
 
 
 
@@ -170,7 +170,7 @@ function exclaimFour(str) {
 }
 
 // arrow
-// declaration (This is the one but leaving commented out to finish the lab)
+declaration (This is the one but leaving commented out to finish the lab)
 // expression
 
 
@@ -184,18 +184,18 @@ function exclaimFour(str) {
 */
 
 //CODE HERE
-// function nameCheck(name) {
-//   if(name === 'Steven'){
-//     return 'What is up Steven?'
-//   } else if (name === 'Bryan'){
-//     return 'Hey Bryan!'
-//   } else {
-//     return `Cool name, ${name}`
-//   }
-// }
+function nameCheck(name) {
+  if(name === 'Steven'){
+    return 'What is up Steven?'
+  } else if (name === 'Bryan'){
+    return 'Hey Bryan!'
+  } else {
+    return `Cool name, ${name}`
+  }
+}
 
-// let nameGreeting = nameCheck('Adam');
-// console.log(nameGreeting);
+let nameGreeting = nameCheck('Adam');
+console.log(nameGreeting);
 
 
 ////////////////// PROBLEM 11 ////////////////////
@@ -209,20 +209,20 @@ function exclaimFour(str) {
 */
 
 //CODE HERE
-// function faveColorFinder(colorStr) {
-//   if(colorStr === "red"){
-//     return 'red is a great color';
-//   } else if (colorStr === "green"){
-//     return 'green is a solid favorite color';
-//   } else if (colorStr === "black"){
-//     return 'so trendy';
-//   } else {
-//     return 'you need to evaluate your favorite color choice'
-//   }
-// }
+function faveColorFinder(colorStr) {
+  if(colorStr === "red"){
+    return 'red is a great color';
+  } else if (colorStr === "green"){
+    return 'green is a solid favorite color';
+  } else if (colorStr === "black"){
+    return 'so trendy';
+  } else {
+    return 'you need to evaluate your favorite color choice'
+  }
+}
 
-// let colorRating = faveColorFinder('blue');
-// console.log(colorRating);
+let colorRating = faveColorFinder('blue');
+console.log(colorRating);
 
 
 ////////////////// PROBLEM 12 ////////////////////
@@ -234,12 +234,12 @@ let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
 */
 
 //CODE HERE
-// function printAllNames(names) {
-//   for(let i = 0; i < namesArr.length; i++){
-//     console.log(namesArr[i]);
-//   }
-// }
-// printAllNames(namesArr);
+function printAllNames(names) {
+  for(let i = 0; i < namesArr.length; i++){
+    console.log(namesArr[i]);
+  }
+}
+printAllNames(namesArr);
 
 
 ////////////////// PROBLEM 13 ////////////////////
@@ -251,18 +251,18 @@ let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
 */
 
 //CODE HERE
-// const thatsOdd = num => {
-//   if(num % 2 === 0){
-//     return "That's not odd!"
-//   } else {
-//     return "That is odd indeed!"
-//   }
-// }
+const thatsOdd = num => {
+  if(num % 2 === 0){
+    return "That's not odd!"
+  } else {
+    return "That is odd indeed!"
+  }
+}
 
-// console.log(thatsOdd(10));
+console.log(thatsOdd(10));
 
-// let oddChecker = thatsOdd(13);
-// console.log(oddChecker);
+let oddChecker = thatsOdd(13);
+console.log(oddChecker);
 
 
 ////////////////// PROBLEM 14 ////////////////////
@@ -276,9 +276,9 @@ let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
 */
 
 //CODE HERE
-// const bestMovie = title => `${title} is the best movie ever!`;
+const bestMovie = title => `${title} is the best movie ever!`;
 
-// console.log(bestMovie('Sharknado'));
+console.log(bestMovie('Sharknado'));
 
 
 ////////////////// PROBLEM 15 ////////////////////
@@ -293,23 +293,23 @@ let bigOrSmallArray = [1,101, 102, 2, 103, 4, 5, 6, 107]
 */
 
 //CODE HERE
-// function bigOrSmall(arr) {
-//   let answers = [];
-//   for(let i = 0; i < arr.length; i++){
-//     if(arr[i] > 100){
-//       answers.push('big');
-//     } else {
-//       answers.push('small');
-//     }
-//   }
-//   return answers;
-// }
+function bigOrSmall(arr) {
+  let answers = [];
+  for(let i = 0; i < arr.length; i++){
+    if(arr[i] > 100){
+      answers.push('big');
+    } else {
+      answers.push('small');
+    }
+  }
+  return answers;
+}
 
-// let arrayEvaluator = bigOrSmall(bigOrSmallArray);
-// console.log(arrayEvaluator);
+let arrayEvaluator = bigOrSmall(bigOrSmallArray);
+console.log(arrayEvaluator);
 
-// console.log(bigOrSmall(bigOrSmallArray));
-// console.log(arrayEvaluator);
+console.log(bigOrSmall(bigOrSmallArray));
+console.log(arrayEvaluator);
 
 
 ////////////////// PROBLEM 16 ////////////////////
@@ -323,16 +323,16 @@ let loser = 'Glimmer'
 */
 
 //CODE HERE
-// function theEliminator(contestants, loser) {
-//   for(let i = 0; i < contestants.length; i++){
-//     if(loser === contestants[i]){
-//       contestants.splice(i, 1);
-//     }
-//   }
-//   return contestants
-// }
+function theEliminator(contestants, loser) {
+  for(let i = 0; i < contestants.length; i++){
+    if(loser === contestants[i]){
+      contestants.splice(i, 1);
+    }
+  }
+  return contestants
+}
 
-// console.log(theEliminator(contestants, loser));
+console.log(theEliminator(contestants, loser));
 
 
 ////////////////// PROBLEM 17 ////////////////////
@@ -343,11 +343,11 @@ let sampleString = "Hi, my name is Kylo."
 */
 
 //CODE HERE
-// function bigString(str) {
-//   console.log(str.toUpperCase());
-// }
+function bigString(str) {
+  console.log(str.toUpperCase());
+}
 
-// bigString(sampleString);
+bigString(sampleString);
 
 
 ////////////////// PROBLEM 18 ////////////////////
@@ -361,17 +361,17 @@ let sampleString = "Hi, my name is Kylo."
   return 'must provide a valid email address'
 */
 
-// function emailCheck(email) {
-//   email = String(email);
-//   email = email.trim();
-//   if(email.includes('@')) {
-//     return 'email verified';
-//   } else {
-//     return 'must provide a valid email address'
-//   }
-// }
+function emailCheck(email) {
+  email = String(email);
+  email = email.trim();
+  if(email.includes('@')) {
+    return 'email verified';
+  } else {
+    return 'must provide a valid email address'
+  }
+}
 
-// console.log(emailCheck("whoami@gmail.com"));
+console.log(emailCheck("whoami@gmail.com"));
 
 ////////////////// PROBLEM 19 ////////////////////
 /*
@@ -382,13 +382,13 @@ let sampleString = "Hi, my name is Kylo."
 */
 
 //CODE HERE
-// function buyAllFrogs(gold) {
-//   return gold /= 3;
-// }
+function buyAllFrogs(gold) {
+  return gold /= 3;
+}
 
-// let totalFrogs = buyAllFrogs(8);
+let totalFrogs = buyAllFrogs(8);
 
-// console.log(totalFrogs);
+console.log(totalFrogs);
 
 
 ////////////////// PROBLEM 20 ////////////////////
@@ -400,25 +400,25 @@ let sampleString = "Hi, my name is Kylo."
 */
 
 //CODE HERE
-// function buyAllFrogs2(gold) {
-//   return gold / 3;
-// }
+function buyAllFrogs2(gold) {
+  return gold / 3;
+}
 
-// let totalFrogs2 = buyAllFrogs2(50);
-// console.log(parseInt(totalFrogs2));
+let totalFrogs2 = buyAllFrogs2(50);
+console.log(parseInt(totalFrogs2));
 
-// function buyAllFrogs3(gold) {
-//   if(gold % 3 === 0){
-//     return gold / 3
-//   } else if ((gold - 1) % 3 === 0){
-//     return (gold - 1) / 3
-//   } else {
-//     return (gold - 2) / 3
-//   }
-// }
+function buyAllFrogs3(gold) {
+  if(gold % 3 === 0){
+    return gold / 3
+  } else if ((gold - 1) % 3 === 0){
+    return (gold - 1) / 3
+  } else {
+    return (gold - 2) / 3
+  }
+}
 
-// let totalFrogs3 = buyAllFrogs3(17);
-// console.log(totalFrogs3);
+let totalFrogs3 = buyAllFrogs3(17);
+console.log(totalFrogs3);
 
 
 ////////////////// PROBLEM 21 ////////////////////
@@ -430,20 +430,20 @@ let sampleArray = [0,1,2,3,4,7,5,6,8,9]
 */
 
 //CODE HERE
-// function stairs(arr) {
-//   let nextStep = arr[0];
-//   for(let i = 1; i < arr.length; i++){
-//     if(arr[i] <= nextStep){
-//       return false
-//     } else {
-//       nextStep = arr[i];
-//     }
-//   }
-//   return true;
-// }
+function stairs(arr) {
+  let nextStep = arr[0];
+  for(let i = 1; i < arr.length; i++){
+    if(arr[i] <= nextStep){
+      return false
+    } else {
+      nextStep = arr[i];
+    }
+  }
+  return true;
+}
 
-// let arrayIsAscending = stairs(sampleArray);
-// console.log(arrayIsAscending);
+let arrayIsAscending = stairs(sampleArray);
+console.log(arrayIsAscending);
 
 
 ////////////////// PROBLEM 22 ////////////////////
